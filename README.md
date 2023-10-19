@@ -6,7 +6,7 @@
 ![PR](https://img.shields.io/github/issues-pr/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
   <p>
-Our repository features a robust deep learning model, employing Convolutional Neural Networks, to accurately predict skin lesions and diseases. Utilizing Harvard's Ham10000 dataset, our solution enhances dermatological diagnosis with state-of-the-art technology.
+Our repository features a robust deep learning model, employing Convolutional Neural Networks, to accurately predict skin lesions and diseases.<br>Utilizing Harvard's Ham10000 dataset, our solution enhances dermatological diagnosis with state-of-the-art technology.
 
  ## Current Tech Stack 🔻
 <div style="display: inline_block"><br>
