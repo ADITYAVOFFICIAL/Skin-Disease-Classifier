@@ -6,7 +6,7 @@
 ![PR](https://img.shields.io/github/issues-pr/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
   <p>
-Welcome to Socialgram, a collaborative social web project! Our team, including Sahil Adhikari, Aditya Verma, Mufeeda, and Sonakshi, crafted this platform using Django, HTML, CSS, and Tailwind CSS. We warmly invite you to contribute by submitting pull requests or reporting issues. Let's build something amazing together!
+Our repository features a robust deep learning model, employing Convolutional Neural Networks, to accurately predict skin lesions and diseases. Utilizing Harvard's Ham10000 dataset, our solution enhances dermatological diagnosis with state-of-the-art technology.
 
  ## Current Tech Stack 🔻
 <div style="display: inline_block"><br>
