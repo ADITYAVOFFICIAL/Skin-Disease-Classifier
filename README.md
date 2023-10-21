@@ -1,4 +1,4 @@
-## Human Against Machine with 10000 training images
+## Skin Disease Classifier using HAM10000 Dataset
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badges)
 ![Status](https://img.shields.io/website-up-down-green-red/https/sihmavericks.netlify.app.svg)
 ![Forks](https://img.shields.io/github/forks/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)
