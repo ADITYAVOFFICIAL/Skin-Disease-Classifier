@@ -5,6 +5,8 @@
 ![Issues](https://img.shields.io/github/issues/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)
 ![PR](https://img.shields.io/github/issues-pr/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1f776b3-3424-4a08-9f85-b212b66cfbe8/deploy-status)](https://app.netlify.com/sites/skinny-classifier/deploys)
+
   <ul>
 <li>Our repository features a robust deep learning model, employing 𝗖𝗼𝗻𝘃𝗼𝗹𝘂𝘁𝗶𝗼𝗻𝗮𝗹 𝗡𝗲𝘂𝗿𝗮𝗹 𝗡𝗲𝘁𝘄𝗼𝗿𝗸𝘀, to accurately 𝗽𝗿𝗲𝗱𝗶𝗰𝘁 𝘀𝗸𝗶𝗻 𝗹𝗲𝘀𝗶𝗼𝗻𝘀 𝗮𝗻𝗱 𝗱𝗶𝘀𝗲𝗮𝘀𝗲𝘀.</li><li>Utilizing Harvard's 𝗛𝗔𝗠𝟭𝟬𝟬𝟬𝟬, our solution enhances dermatological diagnosis with state-of-the-art technology.</li></ul>
 
