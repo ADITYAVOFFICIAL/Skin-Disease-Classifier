@@ -152,16 +152,3 @@ async function model_processArray(array) {
 		reader.readAsDataURL(file);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
