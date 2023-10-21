@@ -33,8 +33,8 @@ function predictOnLoad() {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('http://skdis.vercel.app/final_model_kaggle_version1/model.json');
-	$("#selected-image").attr("src", "http://skdis.vercel.app/assets/samplepic.jpg");
+	model = await tf.loadModel('https://skinny-classifier.netlify.app/final_model_kaggle_version1/model.json');
+	$("#selected-image").attr("src", "https://skinny-classifier.netlify.app/assets/samplepic.jpg");
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:
