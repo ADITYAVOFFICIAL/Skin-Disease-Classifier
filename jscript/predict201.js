@@ -39,8 +39,8 @@ $("#image-selector").change(function () {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('http://fundis.netlify.app/model_kaggle_version12/model.json');
-	$("#selected-image").attr("src", "https://cdn.vectorstock.com/i/preview-1x/66/14/default-avatar-photo-placeholder-profile-picture-vector-21806614.jpg")
+	model = await tf.loadModel('http://derma-scan.netlify.app/model_kaggle_version12/model.json');
+	$("#selected-image").attr("src", "./images/nope.png")
 	
 	
 	// Simulate a click on the predict button
