@@ -39,7 +39,7 @@ $("#image-selector").change(function () {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('http://skinny-classifier.netlify.app/model_kaggle_version12/model.json');
+	model = await tf.loadModel('http://fundis.netlify.app/model_kaggle_version12/model.json');
 	$("#selected-image").attr("src", "https://cdn.vectorstock.com/i/preview-1x/66/14/default-avatar-photo-placeholder-profile-picture-vector-21806614.jpg")
 	
 	
@@ -103,20 +103,7 @@ $("#predict-button").click(async function () {
 	
 $("#prediction-list").empty();
 top5.forEach(function (p) {
-
-	$("#prediction-list").append(`<li>${p.className}: ${p.probability.toFixed(6)}</li>`);
-
-	
-	});
-	
-	
+    const probabilityPercentage = (p.probability * 100).toFixed(2); // Multiply by 100 and round to 2 decimal places
+    $("#prediction-list").append(`<li>${p.className}: ${probabilityPercentage}%</li>`);
+});	
 });
-
-
-
-
-
-
-
-
-

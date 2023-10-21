@@ -33,7 +33,7 @@ function predictOnLoad() {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('https://skinny-classifier.netlify.app/final_model_kaggle_version1/model.json');
+	model = await tf.loadModel('https://fundis.netlify.app/final_model_kaggle_version1/model.json');
 	$("#selected-image").attr("src", "https://cdn.vectorstock.com/i/preview-1x/66/14/default-avatar-photo-placeholder-profile-picture-vector-21806614.jpg");
 	
 	// Hide the model loading spinner
