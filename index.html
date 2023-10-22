@@ -30,14 +30,14 @@
     <div class="preloader position-fixed d-flex align-items-center justify-content-center">
         <div class="block">
             <div class="loader-image mb-20">
-                <img src="images/preloader.png" alt="">
+                <img src="images/preloader.png">
             </div>
             <div class="loader-text text-uppercase">
                 <span class="mb-1">Welcome to</span>
                 <span>DermaScan</span>
             </div>
         </div>
-    </div>
+    </div>    
     <!-- end of preloader -->
   
 <!-- start of header -->
@@ -56,15 +56,6 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item @@about">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item @@service">
-                        <a class="nav-link" href="services.html">Service</a>
-                    </li>
-                    <li class="nav-item @@team">
-                        <a class="nav-link" href="team.html">Team</a>
                     </li>
                     <li class="nav-item dropdown @@pricing">
                         <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -87,94 +78,19 @@
     </div>
 </header>
 <!-- end of header -->
-
-<!-- signup-modal -->
-<div class="modal fade rounded" id="signup-modal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title font-weight-bold">Sign up now</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body p-3 p-sm-4">
-                <form method="POST" class="needs-validation row" novalidate="">
-                    <div class="form-group mb-20 col-md-6">
-                        <label class="text-black-200 h6 font-weight-600 mb-2" for="fname">First Name*</label>
-                        <input class="form-control shadow-none" type="text" placeholder="Jack" id="fname" required="">
-                        <p class="font-weight-bold invalid-feedback">Your first name is required!</p>
-                    </div>
-                    <div class="form-group mb-20 col-md-6">
-                        <label class="text-black-200 h6 font-weight-600 mb-2" for="lname">Last Name*</label>
-                        <input class="form-control shadow-none" type="text" placeholder="Barker" id="lname" required="">
-                        <p class="font-weight-bold invalid-feedback">Your last name is required!</p>
-                    </div>
-                    <div class="form-group mb-20 col-12">
-                        <label class="text-black-200 h6 font-weight-600 mb-2" for="email2">Email Address*</label>
-                        <input class="form-control shadow-none" type="email" placeholder="jack@email.com" id="email2" required="">
-                        <p class="font-weight-bold invalid-feedback">Your email is required!</p>
-                    </div>
-                    <div class="form-group mb-20 col-12">
-                        <label class="text-black-200 h6 font-weight-600 mb-2" for="password">Password*</label>
-                        <input class="form-control shadow-none" type="password" id="password" required="">
-                        <p class="font-weight-bold invalid-feedback">Your password is required!</p>
-                    </div>
-                    <div class="form-group mb-20 col-12">
-                        <label class="text-black-200 h6 font-weight-600 mb-2" for="repassword">Retype Password*</label>
-                        <input class="form-control shadow-none" type="password" id="repassword" required="">
-                        <p class="font-weight-bold invalid-feedback">Please retype your password.</p>
-                    </div>
-                    <div class="form-group col-12">
-                        <button class="btn btn-primary w-100" type="submit">Sign Up</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- signup-modal -->
-
-<!-- login-modal -->
-<div class="modal fade rounded" id="signin-modal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable mx-auto" style="max-width:400px">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title font-weight-bold">Welcome back</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body p-3 p-sm-4">
-                <form method="POST" class="needs-validation row" novalidate="">
-                    <div class="form-group mb-20 col-12">
-                        <label class="text-black-200 h6 font-weight-600 mb-2" for="email">Email Address*</label>
-                        <input class="form-control shadow-none" type="email" id="email" required="">
-                        <p class="font-weight-bold invalid-feedback">Your email is required!</p>
-                    </div>
-                    <div class="form-group mb-20 col-12">
-                        <label class="text-black-200 h6 font-weight-600 mb-2" for="passwordSignIn">Password*</label>
-                        <input class="form-control shadow-none" type="password" id="passwordSignIn" required="">
-                        <p class="font-weight-bold invalid-feedback">Your password is required!</p>
-                    </div>
-                    <div class="form-group col-12">
-                        <button class="btn btn-primary w-100" type="submit">Sign In</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- login-modal -->
-
 <!-- start of banner -->
 <section class="banner bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom" style="background-image: url(images/banner.svg)" data-aos="fade-in" data-aos-delay="150">
     <div class="container h-100">
         <div class="d-block d-lg-flex no-gutters align-items-center h-100">
             <div class="col-12 col-xl-8 col-lg-8 order-lg-1">
                 <div class="banner-image has-video-popup has-shapes mb-4 mb-md-5 mb-lg-0">
-                    <button type="button" class="video-play-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/dyZcRRWiuuw" data-target="#videoModal"><svg width="1.8em" height="1.8em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"></path></svg></button>
-
+                    <a href="https://github.com/ADITYAVOFFICIAL/Skin-Disease-Classifier" target="_blank">
+                        <button type="button" class="video-play-btn">
+                            <svg width="1.8em" height="1.8em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <image xlink:href="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="16" height="16" />
+                            </svg>
+                        </button>
+                    </a> 
                     <img class="img-fluid" src="images/banner-shot.png" alt="">
 
                     <div class="shape-lg bg-tertiary rounded-circle"></div>
@@ -183,26 +99,10 @@
                 </div>
             </div>
             <div class="col-xl-5 col-lg-6 order-lg-0">
-                <h2 class="h1 mb-20">Give Your customers human feeling touch <strong>Like Never Before</strong></h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seddiam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
-
-                <form action="" method="post" class="needs-validation mt-30" novalidate="">
-                    <div class="input-group d-block d-sm-flex">
-                        <input type="email" class="form-control bg-transparent" placeholder="name@email.com" required="">
-                        <div class="input-group-append">
-                            <button type="submit" class="btn btn-primary has-icon ml-15">Request Demo
-                                <span class="icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z" fill="currentColor"></path></svg></span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-
-                <div class="divider-text mt-25 mb-25"><span class="bg-light-gray">OR</span></div>
-
-                <a href="#!" class="btn btn-outline-secondary d-flex align-items-center justify-content-center">
-                <img class="mr-2" src="images/google.png" alt="">Sign Up With Google</a>
+                <h2 class="h1 mb-20">Welcome to <strong>DermaScan</strong></h2>
+                <p>An all-in-one solution for skin disease identification, boasting exceptional accuracy, responsive performance, and a sleek, user-friendly modern UI.</p>
                 
-                <p class="content has-underdot-link text-black-700 mt-15">No credit card required. Available on
+                <p class="content has-underdot-link text-black-700 mt-15">Works Perfectly on
                     <a href="#!">Mac</a>,
                     <a href="#!">Windows</a>,
                     <a href="#!">iOS</a>, &amp;
@@ -251,7 +151,6 @@
         </div>
     </div>
 </section>
-
 <!-- end of growth-rate -->
 <!-- start of how-it-works tab -->
 <section class="section-padding how-it-works-tab pt-0 overflow-hidden">
@@ -259,13 +158,12 @@
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-9 text-center mb-40">
                 <h2 class="section-title">How <strong>it Works</strong></h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.</p>
             </div>
             <div class="col-lg-11">
                 <ul class="nav nav-pills justify-content-center mb-20" id="pills-tab" role="tablist">
                     <li class="nav-item mb-20" role="presentation">
                         <a class="nav-link active" id="pill-management-tab" data-toggle="pill" href="#management-tab" role="tab" aria-controls="management-tab" aria-selected="true">
-                            <i class="circle-shape"></i>Input Image
+                            <i class="circle-shape"></i>Image Upload
                         </a>
                     </li>
                     <li class="nav-item mb-20" role="presentation">
@@ -275,7 +173,7 @@
                     </li>
                     <li class="nav-item mb-20" role="presentation">
                         <a class="nav-link" id="pill-analytics-tab" data-toggle="pill" href="#analytics-tab" role="tab" aria-controls="analytics-tab" aria-selected="false">
-                            <i class="circle-shape"></i>Prediction
+                            <i class="circle-shape"></i>Classification
                         </a>
                     </li>
                     <li class="nav-item mb-20" role="presentation">
@@ -285,14 +183,14 @@
                     </li>
                 </ul>
                 
-                <div class="tab-content" id="pills-tabContent" data-aos="fade-in">
+                <!-- <div class="tab-content" id="pills-tabContent" data-aos="fade-in">
                     <div class="tab-pane fade show active" id="management-tab" role="tabpanel" aria-labelledby="pill-management-tab">
                         <div class="row align-items-center">
                             <div class="col-lg-8 anim-to-top">
                                 <img class="img-fluid rounded-lg shadow" src="images/how-it-works-1.jpg" alt="">
                             </div>
                             <div class="col-lg-4 mt-4 mt-lg-0 anim-to-bottom">
-                                <h2 class="section-title">Task <strong>Management</strong></h2>
+                                <h2 class="section-title">Image <strong>Input</strong></h2>
                                 <p class="mb-30">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet</p>
                                 <a href="how-it-works.html" class="btn btn-primary has-icon">View More
                                     <span class="icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z" fill="currentColor"></path></svg></span>
@@ -342,7 +240,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -355,7 +253,7 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-4 mt-4 mt-lg-0">
                 <h2 class="section-title">Technologies <strong>Used</strong></h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. </p>
+                <p>This project leverages Python, Keras, TensorFlow, scikit-learn, HTML5, CSS, JS, and Bootstrap, hosted on GitHub, to create a dynamic and interactive website.</p>
             </div>
             <div class="col-lg-6">
                 <ul class="inCircle-tools d-block d-sm-flex align-items-center justify-content-center" id="inCircle-element">

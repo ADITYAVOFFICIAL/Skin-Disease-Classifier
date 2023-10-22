@@ -131,8 +131,8 @@ body {
 
 .preloader .block .loader-image {
   transition: 0.3s ease-out;
-  height: 90px;
-  width: 90px;
+  height: 200px;
+  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,7 +212,7 @@ body {
 }
 
 .preloader .block .loader-image img {
-  height: 30px;
+  height: 150px;
 }
 
 .preloader .block .loader-text span {
@@ -2569,7 +2569,6 @@ a.text-black-400:hover {
 .has-video-popup {
   position: relative;
 }
-
 .has-video-popup .video-play-btn {
   border: 0;
   outline: 0;
