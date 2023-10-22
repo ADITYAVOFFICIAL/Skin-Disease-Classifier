@@ -378,6 +378,11 @@ body[light-mode="dark"] .form-group p.font-weight-bold.invalid-feedback {
 body[light-mode="dark"] .rounded.shadow.form-group select option:hover {
     background-color: #444; /* Background color for hovered select options in dark mode */
 }
+body[light-mode="dark"] #prediction-list {
+    background-color: #333 !important; /* Dark background color for the ol element */
+    color: #fff !important; /* Light text color for the ol element */
+    font-weight: bold !important; /* Set font-weight to bold */
+}
 
 .bground-color {
 	background-color: #F8F8F8; /* #1B2A49;  #1B2A49; #F8F8F8;  rgb(248,248,248) */
