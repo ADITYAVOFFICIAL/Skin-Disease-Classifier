@@ -108,6 +108,22 @@ body[light-mode="dark"] .header-nav .navbar-brand img {
 body[light-mode="dark"] .header-nav .navbar-button a.btn-sm {
     color: #fff; /* Button text color in dark mode */
 }
+/* CSS for mobile devices */
+@media (max-width: 767px) {
+    /* Apply black background and make it important */
+    body[light-mode="dark"] .navbar-collapse.collapse.show {
+        background-color: #1a1818 !important;
+    }
+	
+}
+/* Set text color to white for dark mode */
+body[light-mode="dark"] ul.dropdown-menu {
+    color: white; /* Text color for the dropdown menu in dark mode */
+}
+
+body[light-mode="dark"] ul.dropdown-menu a.dropdown-item {
+    color: white !important; /* Text color for the dropdown items in dark mode (important to override other styles) */
+}
 
 /* Define styles for elements in dark mode */
 /* Dark mode styles for the header */
