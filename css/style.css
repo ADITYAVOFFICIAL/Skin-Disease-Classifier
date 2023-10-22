@@ -4064,8 +4064,8 @@ footer .needs-validation .btn:hover {
 }
 
 .scroll-to-top-btn {
-  bottom: 20px;
-  right: 33px;
+  left: 20px; /* Change right to left */
+  bottom: 33px;
   z-index: 9999;
   padding: 3px;
   border-radius: 2px;
@@ -4076,7 +4076,7 @@ footer .needs-validation .btn:hover {
 
 @media (max-width: 575px) {
   .scroll-to-top-btn {
-    right: 15px;
+    left: 15px; /* Change right to left */
   }
   .scroll-to-top-btn svg {
     height: 25px;
@@ -4087,13 +4087,11 @@ footer .needs-validation .btn:hover {
 .scroll-to-top-btn.show {
   opacity: 1;
   visibility: visible;
-  bottom: 33px;
+  left: 33px; /* Change right to left */
 }
 
 @media (max-width: 575px) {
   .scroll-to-top-btn.show {
-    bottom: 15px;
+    left: 15px; /* Change right to left */
   }
 }
-
-/*# sourceMappingURL=maps/style.css.map */
