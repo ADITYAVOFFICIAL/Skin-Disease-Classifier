@@ -1,3 +1,384 @@
+/* Light Mode Button Styles
+--------------------------- */
+
+.light-mode-button {
+    background: 0;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 45px;
+    width: 100px;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin-top: 5px;
+	margin-right: 10px;
+}
+
+.light-mode-button:focus {
+    outline: none; /* Not ideal for accessibility */
+}
+
+.light-mode-button span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #d6d7db;
+    box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
+    transition: 0.3s;
+}
+
+.light-mode-button span:nth-child(2) {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
+    transition: 0.3s;
+}
+/* Define styles for elements in dark mode */
+/* Dark mode styles for the header */
+body[light-mode="dark"] .header-nav {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+body[light-mode="dark"] .header-nav .navbar-brand img {
+    filter: invert(1); /* Invert logo colors for dark mode */
+}
+body[light-mode="dark"] .header-nav .navbar-button a.btn-sm {
+    color: #fff; /* Button text color in dark mode */
+}
+
+/* Define styles for elements in dark mode */
+/* Dark mode styles for the header */
+body[light-mode="dark"] .header-nav {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+body[light-mode="dark"] .header-nav .navbar-brand img {
+    filter: invert(1); /* Invert logo colors for dark mode */
+}
+
+body[light-mode="dark"] .header-nav .navbar-button a.btn-sm {
+    color: #fff; /* Button text color in dark mode */
+}
+
+/* Dark mode styles for dropdown menu */
+body[light-mode="dark"] .header-nav .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    background-color: #000; /* Set the background color to black */
+}
+
+/* Style the dropdown item text in dark mode */
+body[light-mode="dark"] .header-nav .dropdown-item {
+    color: #000000; /* Dropdown item text color in dark mode */
+}
+
+body[light-mode="dark"] .header-nav .dropdown-item:hover {
+    background-color: #444; /* Background color for hovered dropdown items in dark mode */
+}
+
+/* Dark mode styles for navigation links */
+body[light-mode="dark"] .navbar-nav .nav-item a.nav-link {
+    color: white; /* Default text color for non-selected items in dark mode */
+}
+
+body[light-mode="dark"] .navbar-nav .nav-item.active a.nav-link {
+    color: red; /* Text color for the active item in dark mode */
+}
+
+/* Dark mode styles for dropdown menu items */
+body[light-mode="dark"] .navbar-nav .dropdown-menu .dropdown-item {
+    color: rgb(0, 0, 0); /* Dropdown item text color in dark mode */
+}
+
+body[light-mode="dark"] .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #444; /* Background color for hovered dropdown items in dark mode */
+}
+
+/* Dark mode styles for dropdown menu links */
+body[light-mode="dark"] .navbar-nav .dropdown-menu a.dropdown-item.active {
+    color: red; /* Text color for the active dropdown item in dark mode */
+}
+
+body[light-mode="dark"] {
+    background-color: #1a1a1a;
+    color: #ced4e2;
+}
+
+body[light-mode="dark"] .light-mode-button span:nth-child(1) {
+    background-color: #ced4e2;
+    color: #141516;
+}
+
+body[light-mode="dark"] .light-mode-button span:nth-child(2) {
+    left: 65px;
+    background-color: #141516;
+}
+
+body[light-mode="dark"] a {
+    color: #ced4e2;
+}
+
+.text-color[light-mode="dark"] {
+    color: #404040; /* rgb(64,64,64) */
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: #ced4e2;
+    line-height: 1.3;
+}
+
+body[light-mode="dark"] .dark-mode {
+    /* Add your dark mode styles for the section here */
+    background-color: #1a1a1a; /* Example background color */
+    color: #ced4e2; /* Example text color */
+    /* Add other styles as needed */
+}
+
+/* Dark mode styles */
+body[light-mode="dark"] section {
+    background-color: #1a1a1a;
+    color: #ced4e2;
+    /* Add other dark mode styles */
+}
+
+body[light-mode="dark"] section h1,
+body[light-mode="dark"] section h2,
+body[light-mode="dark"] section li,
+body[light-mode="dark"] section p,
+body[light-mode="dark"] section ul,
+body[light-mode="dark"] section i,
+body[light-mode="dark"] section span,
+body[light-mode="dark"] section h3  {
+    color: #ced4e2; /* Example text color for dark mode */
+    /* Add other styles as needed for h1 and h2 */
+}
+
+/* Dark mode styles for the specific section */
+body[light-mode="dark"] .contact-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+body[light-mode="dark"] .contact-section .form-control {
+    background-color: #333333; /* Dark input background color */
+    color: #fff; /* Light text color for inputs */
+    border-color: #888888; /* Dark border color for inputs */
+}
+
+body[light-mode="dark"] .contact-section .form-control::placeholder {
+    color: #ccc; /* Placeholder text color for dark inputs */
+}
+
+body[light-mode="dark"] .contact-section .btn-primary {
+    background-color: #FF3158; /* Dark background color for the submit button */
+    color: #fff; /* Light text color for the submit button */
+}
+
+body[light-mode="dark"] .contact-section h2.section-title {
+    color: #fff; /* Light text color for section titles */
+}
+
+body[light-mode="dark"] .contact-section p {
+    color: #ccc; /* Light text color for section paragraphs */
+}
+
+body[light-mode="dark"] .contact-section span {
+    color: #ccc; /* Text color for spans in dark mode */
+}
+
+body[light-mode="dark"] .contact-section li {
+    color: #ccc; /* Text color for list items in dark mode */
+}
+
+/* Dark mode styles for the footer section */
+body[light-mode="dark"] footer.bg-light-gray {
+    background-color: #1a1a1a; /* Change background color to dark */
+}
+
+body[light-mode="dark"] footer.bg-light-gray h2.section-title {
+    color: white; /* Text color for section title in dark mode */
+}
+
+body[light-mode="dark"] footer.bg-light-gray a.btn-primary {
+    background-color: #1a1a1a; /* Button background color in dark mode */
+    color: white; /* Button text color in dark mode */
+}
+
+body[light-mode="dark"] footer.bg-light-gray a.btn-primary:hover {
+    background-color: #1a1a1a; /* Button background color on hover in dark mode */
+}
+
+body[light-mode="dark"] footer .footer-bottom .block a {
+    color: white; /* Copyright text color in dark mode */
+}
+
+
+
+body[light-mode="dark"] {
+    background-color: #1a1a1a;
+    color: #ced4e2;
+}
+
+body[light-mode="dark"] .light-mode-button span:nth-child(1) {
+    background-color: #ced4e2;
+    color: #141516;
+}
+
+body[light-mode="dark"] .light-mode-button span:nth-child(2) {
+    left: 65px;
+    background-color: #141516;
+}
+
+body[light-mode="dark"] a {
+    color: #ced4e2;
+}
+
+.text-color[light-mode="dark"] {
+    color: #404040; /* rgb(64,64,64) */
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: #ced4e2;
+    line-height: 1.3;
+}
+body[light-mode="dark"] .dark-mode {
+    /* Add your dark mode styles for the section here */
+    background-color: #1a1a1a; /* Example background color */
+    color: #ced4e2; /* Example text color */
+    /* Add other styles as needed */
+}
+/* Dark mode styles */
+body[light-mode="dark"] section {
+    background-color: #1a1a1a;
+    color: #ced4e2;
+    /* Add other dark mode styles */
+}
+body[light-mode="dark"] section h1,
+body[light-mode="dark"] section h2,
+body[light-mode="dark"] section li,
+body[light-mode="dark"] section p,
+body[light-mode="dark"] section ul,
+body[light-mode="dark"] section i,
+body[light-mode="dark"] section span,
+body[light-mode="dark"] section h3  {
+    color: #ced4e2; /* Example text color for dark mode */
+    /* Add other styles as needed for h1 and h2 */
+}
+body[light-mode="dark"] .contact-section label  {
+    color: #ced4e2; /* Example text color for dark mode */
+    /* Add other styles as needed for h1 and h2 */
+}
+/* Dark mode styles for the specific section */
+body[light-mode="dark"] .contact-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+body[light-mode="dark"] .contact-section .form-control {
+    background-color: #333333; /* Dark input background color */
+    color: #fff; /* Light text color for inputs */
+    border-color: #888888; /* Dark border color for inputs */
+}
+
+body[light-mode="dark"] .contact-section .form-control::placeholder {
+    color: #ccc; /* Placeholder text color for dark inputs */
+}
+
+body[light-mode="dark"] .contact-section .btn-primary {
+    background-color: #FF3158; /* Dark background color for the submit button */
+    color: #fff; /* Light text color for the submit button */
+}
+
+body[light-mode="dark"] .contact-section h2.section-title {
+    color: #fff; /* Light text color for section titles */
+}
+
+body[light-mode="dark"] .contact-section p {
+    color: #ccc; /* Light text color for section paragraphs */
+}
+
+body[light-mode="dark"] .contact-section span {
+    color: #ccc; /* Text color for spans in dark mode */
+}
+
+body[light-mode="dark"] .contact-section li {
+    color: #ccc; /* Text color for list items in dark mode */
+}
+/* Dark mode styles for the footer section */
+body[light-mode="dark"] footer.bg-light-gray {
+    background-color: #1a1a1a; /* Change background color to dark */
+}
+
+body[light-mode="dark"] footer.bg-light-gray h2.section-title {
+    color: white; /* Text color for section title in dark mode */
+}
+
+body[light-mode="dark"] footer.bg-light-gray a.btn-primary {
+    background-color: #1a1a1a; /* Button background color in dark mode */
+    color: white; /* Button text color in dark mode */
+}
+
+body[light-mode="dark"] footer.bg-light-gray a.btn-primary:hover {
+    background-color: #1a1a1a; /* Button background color on hover in dark mode */
+}
+
+body[light-mode="dark"] footer .footer-bottom .block a {
+    color: white; /* Copyright text color in dark mode */
+}
+/* Dark mode styles for the specific navigation menu */
+body[light-mode="dark"] ul.nav.nav-pills .nav-item a.nav-link {
+    color: white; /* Default text color for non-selected items in dark mode */
+}
+
+body[light-mode="dark"] ul.nav.nav-pills .nav-item a.nav-link.active {
+    color: red; /* Text color for the active item in dark mode */
+}
+/* Dark mode styles for the specific navigation list */
+body[light-mode="dark"] ul.navbar-nav.mx-auto li.nav-item.active a.nav-link {
+    color: red !important; /* Text color for the active item in dark mode */
+}
+
+body[light-mode="dark"] ul.navbar-nav.mx-auto li.nav-item a.nav-link {
+    color: white !important; /* Text color for non-selected items in dark mode */
+}
+body[light-mode="dark"] .add-margin h5 {
+    color: black /* Text color for the heading in dark mode */
+}
+
+body[light-mode="dark"] .add-margin .fa {
+    color: black; /* Text color for font-awesome icons in dark mode */
+}
+
+body[light-mode="dark"] #prediction-list {
+    color: black; /* Text color for the ordered list in dark mode */
+    font-weight: bold; /* Bold text for the ordered list */
+}
+/* Dark mode styles for the form and its components */
+body[light-mode="dark"] .rounded.shadow.form-group label,
+body[light-mode="dark"] .rounded.shadow.form-group input[type="text"],
+body[light-mode="dark"] .rounded.shadow.form-group input[type="email"],
+body[light-mode="dark"] .rounded.shadow.form-group select,
+body[light-mode="dark"] .rounded.shadow.form-group input[type="text"]::placeholder,
+body[light-mode="dark"] .rounded.shadow.form-group input[type="email"]::placeholder,
+body[light-mode="dark"] .rounded.shadow.form-group select::placeholder,
+body[light-mode="dark"] .rounded.shadow.form-group textarea,
+body[light-mode="dark"] .btn.btn-primary,
+body[light-mode="dark"] .form-group p.font-weight-bold.invalid-feedback {
+    background-color: #333; /* Dark background color for form elements */
+    color: #fff; /* Light text color for form elements */
+}
+body[light-mode="dark"] .rounded.shadow.form-group select option:hover {
+    background-color: #444; /* Background color for hovered select options in dark mode */
+}
+
 .bground-color {
 	background-color: #F8F8F8; /* #1B2A49;  #1B2A49; #F8F8F8;  rgb(248,248,248) */
 }

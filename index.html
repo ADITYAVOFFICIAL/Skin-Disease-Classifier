@@ -25,7 +25,12 @@
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-spy" class="position-relative">
-
+    <script>
+        var app = document.getElementsByTagName("BODY")[0];
+        if (localStorage.lightMode == "dark") {
+            app.setAttribute("light-mode", "dark");
+        }
+    </script>
     <!-- start of preloader -->
     <div class="preloader position-fixed d-flex align-items-center justify-content-center">
         <div class="block">
@@ -39,7 +44,6 @@
         </div>
     </div>    
     <!-- end of preloader -->
-  
 <!-- start of header -->
 <header class="header-nav position-relative bg-light-gray">
     <div class="container">
@@ -70,8 +74,12 @@
                         </ul>
                     </li>
                 </ul>
-
                 <div class="navbar-button">
+                    <!-- <a class="btn btn-sm btn-outline-primary" href="#" style="margin-right: 10px;"><b>Dark Mode</b></a> -->
+                    <button class="btn-sm light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
+                        <span></span>
+                        <span></span>
+                    </button>
                     <a class="btn btn-sm btn-outline-primary" href="./apk/DermaScan.apk"><b>Download APK</b></a>
                 </div>                
             </div>
