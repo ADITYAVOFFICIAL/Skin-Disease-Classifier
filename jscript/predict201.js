@@ -1,7 +1,3 @@
-// Code is based on a YouTube tutorial by deeplizard
-// https://www.youtube.com/watch?v=HEQDRWMK6yY
-
-
 
 // After the model loads we want to make a prediction on the default image.
 // Thus, the user will see predictions when the page is first loaded.

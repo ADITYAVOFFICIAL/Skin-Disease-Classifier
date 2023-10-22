@@ -76,18 +76,6 @@ async function model_makePrediction(fname) {
 }
 
 
-// =====================
-// The following functions help to solve the problems relating to delays 
-// in assigning the src attribute and the delay in model prediction.
-// Without this the model will produce unstable predictions because
-// it will not be predicting on the correct images.
-
-
-// This tutorial explains how to use async, await and promises to manage delays.
-// Tutorial: https://blog.lavrton.com/javascript-loops-how-to-handle-async-await-6252dd3c795
-// =====================
-
-
 
 function model_delay() {
 	
@@ -111,9 +99,6 @@ async function model_delayedLog(item, dataURL) {
 	// log the item only after a delay.
 	//console.log(item);
 }
-
-// This step by step tutorial explains how to use FileReader.
-// Tutorial: http://tutorials.jenkov.com/html5/file-api.html
 
 async function model_processArray(array) {
 	
