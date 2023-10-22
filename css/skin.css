@@ -158,6 +158,58 @@ body[light-mode="dark"] .navbar-nav .dropdown-menu .dropdown-item:hover {
 body[light-mode="dark"] .navbar-nav .dropdown-menu a.dropdown-item.active {
     color: red; /* Text color for the active dropdown item in dark mode */
 }
+/* Dark mode styles for the mobile navigation bar (on mobile screens) */
+@media (max-width: 768px) {
+    body[light-mode="dark"] .header-nav {
+        background-color: #1a1a1a; /* Dark background color */
+        color: #fff; /* Light text color */
+    }
+
+    body[light-mode="dark"] .header-nav .navbar-brand img {
+        filter: invert(1); /* Invert logo colors for dark mode */
+    }
+
+    body[light-mode="dark"] .header-nav .navbar-button a.btn-sm {
+        color: #fff; /* Button text color in dark mode */
+    }
+
+    /* Dark mode styles for the mobile dropdown menu (on mobile screens) */
+    body[light-mode="dark"] .header-nav .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+        background-color: #000; /* Set the background color to black */
+    }
+
+    /* Style the dropdown item text in dark mode (on mobile screens) */
+    body[light-mode="dark"] .header-nav .dropdown-item {
+        color: #fff; /* Dropdown item text color in dark mode */
+    }
+
+    body[light-mode="dark"] .header-nav .dropdown-item:hover {
+        background-color: #444; /* Background color for hovered dropdown items in dark mode */
+    }
+
+    /* Dark mode styles for the mobile navigation links (on mobile screens) */
+    body[light-mode="dark"] .navbar-nav .nav-item a.nav-link {
+        color: white; /* Default text color for non-selected items in dark mode */
+    }
+
+    body[light-mode="dark"] .navbar-nav .nav-item.active a.nav-link {
+        color: red; /* Text color for the active item in dark mode */
+    }
+
+    /* Dark mode styles for the mobile dropdown menu items (on mobile screens) */
+    body[light-mode="dark"] .navbar-nav .dropdown-menu .dropdown-item {
+        color: #fff; /* Dropdown item text color in dark mode */
+    }
+
+    body[light-mode="dark"] .navbar-nav .dropdown-menu .dropdown-item:hover {
+        background-color: #444; /* Background color for hovered dropdown items in dark mode */
+    }
+
+    /* Dark mode styles for the mobile dropdown menu links (on mobile screens) */
+    body[light-mode="dark"] .navbar-nav .dropdown-menu a.dropdown-item.active {
+        color: red; /* Text color for the active dropdown item in dark mode */
+    }
+}
 
 body[light-mode="dark"] {
     background-color: #1a1a1a;
