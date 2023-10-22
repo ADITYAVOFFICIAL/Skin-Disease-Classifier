@@ -44,6 +44,47 @@
 
 /* Define styles for elements in dark mode */
 /* Dark mode styles for the header */
+/* Dark mode styles */
+body[light-mode="dark"] .section-padding {
+    background-color: #1a1a1a; /* Dark background color for the section */
+    color: #ced4e2; /* Light text color for the section */
+}
+.carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 50%; /* Adjust this value to move the arrows up or down */
+        transform: translateY(-50%);
+        font-size: 40px;
+        color: black;
+    }
+
+    .carousel-control-prev {
+        left: 0; /* Position the previous button on the left */
+    }
+
+    .carousel-control-next {
+        right: 0; /* Position the next button on the right */
+    }
+/* Use !important to ensure arrow color takes precedence */
+body[light-mode="dark"] .carousel-control-prev i,
+body[light-mode="dark"] .carousel-control-next i {
+    color: #fff !important; /* Change arrow colors to white in dark mode */
+}
+
+body[light-mode="dark"] .carousel-item img {
+    filter: invert(1); /* Invert images in dark mode */
+}
+
+/* Original styles for light mode */
+.section-padding {
+    background-color: #f6f6f6; /* Light background color for the section */
+    color: #000; /* Dark text color for the section */
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+    color: #000; /* Arrow colors for light mode */
+}
+
 body[light-mode="dark"] .header-nav {
     background-color: #1a1a1a; /* Dark background color */
     color: #fff; /* Light text color */
