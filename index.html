@@ -27,10 +27,23 @@
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-spy" class="position-relative">
     <script>
-        var app = document.getElementsByTagName("BODY")[0];
-        if (localStorage.lightMode == "dark") {
-            app.setAttribute("light-mode", "dark");
+        // Function to toggle between light and dark modes
+        function toggleDarkMode() {
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (prefersDark) {
+                document.body.setAttribute('light-mode', 'dark');
+            } else {
+                document.body.removeAttribute('light-mode');
+            }
         }
+
+        // Initial theme detection and toggling
+        toggleDarkMode();
+
+        // Listen for changes in system theme preference
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            toggleDarkMode();
+        });
     </script>
     <!-- start of preloader -->
     <div class="preloader position-fixed d-flex align-items-center justify-content-center">
@@ -219,7 +232,7 @@
 <section class="section-padding how-it-works-tab pt-0 overflow-hidden">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-9 text-center mb-40">
+            <div class="col-lg-6 col-md-9 text-center mb-40 mt-50">
                 <h2 class="section-title">How <strong>it Works</strong></h2>
             </div>
             <div class="col-lg-11">
