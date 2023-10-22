@@ -124,6 +124,15 @@ body[light-mode="dark"] ul.dropdown-menu {
 body[light-mode="dark"] ul.dropdown-menu a.dropdown-item {
     color: white !important; /* Text color for the dropdown items in dark mode (important to override other styles) */
 }
+/* Set the color of the slider indicators to black in light mode */
+body[light-mode="light"] .carousel-indicators li {
+    background-color: black; /* Indicator color in light mode */
+}
+
+/* Set the active indicator color to black in light mode */
+body[light-mode="light"] .carousel-indicators li.active {
+    background-color: black; /* Active indicator color in light mode */
+}
 
 /* Define styles for elements in dark mode */
 /* Dark mode styles for the header */
