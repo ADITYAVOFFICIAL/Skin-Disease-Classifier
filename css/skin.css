@@ -49,6 +49,18 @@ body[light-mode="dark"] .section-padding {
     background-color: #1a1a1a; /* Dark background color for the section */
     color: #ced4e2; /* Light text color for the section */
 }
+/* Dark mode styles for the preloader section */
+body[light-mode="dark"] .preloader {
+    background-color: #000; /* Set a dark background color */
+    color: #fff; /* Set light text color for the preloader text */
+}
+
+body[light-mode="dark"] .preloader .loader-text {
+    color: #fff; /* Set text color for the loader text in dark mode */
+}
+body[light-mode="dark"] .preloader img {
+    filter: invert(1); /* Invert images in dark mode */
+}
 .carousel-control-prev,
     .carousel-control-next {
         position: absolute;
