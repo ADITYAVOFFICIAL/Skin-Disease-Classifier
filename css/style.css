@@ -2140,6 +2140,7 @@ a.text-black-400:hover {
     border-radius: 0;
     background-color: transparent;
     z-index: 1;
+    
   }
   .navbar .dropdown-menu::after {
     position: absolute;
@@ -2153,6 +2154,7 @@ a.text-black-400:hover {
     transition: .3s ease-out;
     box-shadow: 0 10px 30px rgba(22, 28, 45, 0.1);
     transition-delay: padding .25s;
+    border-radius:12px;
   }
   .navbar .dropdown-menu li {
     opacity: 0;
