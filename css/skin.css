@@ -6,12 +6,12 @@
     border: 0;
     box-sizing: border-box;
     cursor: pointer;
-    height: 45px;
-    width: 100px;
+    height: 35px; /* Reduce the height by 10px */
+    width: 95px; /* Reduce the width by 5px */
     position: relative;
     border: 1px solid rgba(255, 255, 255, 0);
     margin-top: 5px;
-	margin-right: 10px;
+    margin-right: 10px;
 }
 
 .light-mode-button:focus {
@@ -22,9 +22,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100px;
-    height: 40px;
-    border-radius: 20px;
+    width: 85px; /* Reduce the width by 5px */
+    height: 30px; /* Reduce the height by 10px */
+    border-radius: 10px; /* Adjust the border-radius for a more circular shape */
     background-color: #d6d7db;
     box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
     transition: 0.3s;
@@ -33,14 +33,15 @@
 .light-mode-button span:nth-child(2) {
     position: absolute;
     top: 5px;
-    left: 5px;
-    width: 30px;
-    height: 30px;
+    left: 5px; /* Reduce the left position by 5px */
+    width: 20px; /* Reduce the width by 10px */
+    height: 20px; /* Reduce the height by 10px */
     background-color: #fff;
-    border-radius: 50%;
+	border-radius: 7px;
     box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
     transition: 0.3s;
 }
+
 /* Define styles for elements in dark mode */
 /* Dark mode styles for the header */
 body[light-mode="dark"] .header-nav {
@@ -71,9 +72,7 @@ body[light-mode="dark"] .header-nav .navbar-button a.btn-sm {
 }
 
 /* Dark mode styles for dropdown menu */
-body[light-mode="dark"] .header-nav .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
-    background-color: #000; /* Set the background color to black */
-}
+
 
 /* Style the dropdown item text in dark mode */
 body[light-mode="dark"] .header-nav .dropdown-item {
@@ -148,12 +147,10 @@ body[light-mode="dark"] section {
     color: #ced4e2;
     /* Add other dark mode styles */
 }
-
 body[light-mode="dark"] section h1,
 body[light-mode="dark"] section h2,
 body[light-mode="dark"] section li,
 body[light-mode="dark"] section p,
-body[light-mode="dark"] section ul,
 body[light-mode="dark"] section i,
 body[light-mode="dark"] section span,
 body[light-mode="dark"] section h3  {
