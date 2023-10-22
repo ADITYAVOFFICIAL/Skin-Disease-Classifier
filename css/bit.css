@@ -1,0 +1,252 @@
+/* This CSS rule sets the default font size of the entire document */
+html {
+    font-size: 16px;
+  }
+  
+  /* These CSS rules sets the text direction of the paragraph (RTL or LTR) */
+  p,
+  .bpw-from-bot > div,
+  #input-message {
+    direction: ltr;
+  }
+  
+  /* This rule changes the color of the text in the input message */
+  #input-message {
+    color: #ffffff;
+  }
+  
+  /* Changes the color of the new message indicator */
+  .bpw-new-messages-indicator {
+    background-color: #fb3454;
+    color: #ffffff;
+  }
+  
+  /* Styling for the chat header container */
+  .bpw-header-container {
+    margin: 10px;
+    background: #fb3454;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    border: 1px;
+    border-radius: 10px;
+    color: #ffffff;
+  }
+  
+  .bpw-header-name{
+    color: #ffffff;
+  }
+  
+  /* Styling for the typing bubble */
+  .bpw-typing-bubble {
+    background: #ffffff;
+  }
+  
+  /* Styling for the chat bubble content */
+  .bpw-chat-bubble-content {
+    background-color: #fb3454;
+    border-radius: 3px;
+    border: 1px transparent;
+  }
+  
+  /* Styling for the date container, header name, and header subtitle */
+  .bpw-date-container,
+  .bpw-header-name,
+  .bpw-header-subtitle {
+    color: #ffffff;
+  }
+  
+  /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
+  .bpw-layout {
+    width: 360px !important;
+    height: 100vh;
+    border-radius: 10px;
+    right: 52px;
+    bottom: 52px;
+    border: 1px;
+  }
+  /* Responsive design rules for devices with width less than or equal to 767px */
+  @media screen and (max-device-width: 767px) {
+    .bpw-layout {
+      width: 100% !important;
+      height: 100%;
+      right: 0;
+      bottom: 0;
+      border-radius: 0;
+    }
+  }
+  
+  /* Changes the fill color of the header icons to white */
+  .bpw-header-icon,
+  .bpw-header-icon svg,
+  .bpw-header-icon svg path {
+    fill: #ffffff !important;
+  }
+  
+  /* Changes the color of the placeholder text in the input message */
+  #input-message::placeholder {
+    color: rgba(255,255,255,.50);
+  }
+  
+  .bpw-composer textarea{
+    outline: none !important;
+    border: 1px solid rgba(255,255,255,.35);
+  }
+  .bpw-composer textarea:focus{
+    outline: none !important;
+    border: 1px solid rgba(255,255,255,.75);
+  }
+  
+  /* Styling for the keyboard single choice option */
+  .bpw-keyboard-single-choice {
+    background-color: #1a1a1a;
+    border: none;
+  }
+  
+  /* Styling for the buttons in the chat interface */
+  .bpw-button,
+  .bpw-button-alt {
+    background-color: #f7052c;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  
+  /* Styling for hover effect on the buttons in the chat interface */
+  .bpw-button:hover,
+  .bpw-button-alt:hover {
+    background-color: #fb3454;
+  }
+  
+  
+  /* Styling for hyperlinks in the chat interface */
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Styling for the chat container, including color, scrollbar width and color, and border */
+  .bpw-chat-container {
+    background-color: #1a1a1a;
+    scrollbar-width: thin;
+    scrollbar-color: #fb3454 #1a1a1a;
+    border: none;
+  }
+  
+  /* Styling for the chat bubble content when it's from the bot */
+  .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+    background-color: #fb3454;
+    color: #ffffff;
+  }
+  
+  /* Styling for the chat bubble content when it's from the user */
+  .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
+    background-color: #888686;
+    color: #ffffff;
+  }
+  
+  /* Styling for the composer section of the chat interface */
+  .bpw-composer {
+    background-color: #1a1a1a;
+    border-top: none;
+  }
+  
+  
+  /* Styling for the scrollbar in the chat container */
+  .bpw-chat-container::-webkit-scrollbar,
+  .bpw-chat-container::-moz-scrollbar {
+    width: 10px;
+    background-color: #1a1a1a;
+    border: none;
+  }
+  
+  /* Styling for the avatar of the bot */
+  .bpw-bot-avatar img,
+  .bpw-bot-avatar svg {
+    background: #000000;
+    border: 3px solid #ffffff;
+  }
+  
+  /* Styling for the general scrollbar in the web page */
+  ::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  /* Styling for the track of the general scrollbar and the chat container scrollbar */
+  ::-webkit-scrollbar-track,
+  .bpw-chat-container::-webkit-scrollbar-track,
+  .bpw-chat-container::-moz-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  /* Styling for the thumb of the general scrollbar and the chat container scrollbar */
+  ::-webkit-scrollbar-thumb,
+  .bpw-chat-container::-webkit-scrollbar-thumb,
+  .bpw-chat-container::-moz-scrollbar-thumb {
+    background-color: #1a1a1a;
+    border-radius: 1rem;
+    border: 0.5rem solid transparent;
+  }
+  
+  /* Styling for the floating button icon in the chat interface */
+  .bpw-floating-button i svg path {
+    fill: #ffffff;
+  }
+  
+  
+  
+  /* Styling for the 'powered by' section of the chat interface */
+  .bpw-powered {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    background: #1a1a1a;
+    font-size: 14px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  /* Styling for the hyperlinks in the 'powered by' section of the chat interface */
+  .bpw-powered a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Styling for hover effect on the hyperlinks in the 'powered by' section of the chat interface */
+  .bpw-powered a:hover {
+    text-decoration: underline;
+  }
+  
+  .bpw-send-button{
+    background: #fb3454;
+  }
+  
+  
+  /* Change Bot Widget Icon */
+  
+  .bpw-widget-btn{
+    border-radius: 50%;
+    background:none;
+  }
+  
+  .bpw-floating-button::before {
+  background:url(https://derma-scan.netlify.app/images/bot.png);
+  background-repeat: no-repeat;
+    background-position: center;
+  background-size: contain;
+  height:undefinedpx !important;
+  width:undefinedpx !important;
+  }
+  
+  .bpw-floating-button {
+    box-shadow: none !important;
+  }
+  
+  .bpw-floating-button:hover {
+    box-shadow: none !important;
+  }
+  
+  // .bpw-floating-button > i {
+  // display: none;
+  // }
