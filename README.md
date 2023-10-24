@@ -9,6 +9,9 @@
   <p>
 Welcome to DermaScan
 
+ ## Build Status
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/a1f776b3-3424-4a08-9f85-b212b66cfbe8/deploy-status)](https://app.netlify.com/sites/derma-scan/deploys)
+
  ## Current Tech Stack 🔻
 <div style="display: inline_block"><br>
   
