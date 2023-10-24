@@ -46,7 +46,10 @@ Welcome to DermaScan
 <p align="center">
 <a href = "https://github.com/ADITYAVOFFICIAL"><img src = "https://img.icons8.com/3d-fluency/94/github.png" width="36" height = "36"/></a>
 <a href = "https://www.linkedin.com/in/aditya-verma-real/">
-<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+<img src = "https://img.icons8.com/color/48/linkedin.png" width="36" height="36"/>
+</a>
+<a href = "[https://www.linkedin.com/in/aditya-verma-real/](https://medium.com/@adityaver)">
+<img src = "https://img.icons8.com/sf-black-filled/64/medium-logo.png" width="36" height="36"/>
 </a>
 </p>
 </td>
