@@ -5,6 +5,7 @@
 ![Issues](https://img.shields.io/github/issues/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)
 ![PR](https://img.shields.io/github/issues-pr/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+[![HitCount](https://hits.dwyl.com/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)](https://hits.dwyl.com/ADITYAVOFFICIAL/Skin-Disease-Classifier)
   <p>
 Welcome to DermaScan
 
