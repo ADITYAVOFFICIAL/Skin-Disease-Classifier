@@ -7,7 +7,7 @@
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 [![HitCount](https://hits.dwyl.com/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)](https://hits.dwyl.com/ADITYAVOFFICIAL/Skin-Disease-Classifier)
   <p>
-Welcome to DermaScan
+Welcome to the DermaScan web app GitHub repository, your gateway to a cutting-edge skin lesion and disease classifier. Leveraging Harvard's Ham10000 dataset and the robust MobileNet V2 model, this system boasts an impressive accuracy rate of 89%. But that's not all – we've integrated "Derma," a dermatology chatbot powered by GPT-3.5 Turbo, to provide insightful information and guidance. Moreover, our app also connects you with the nearest doctors through an intuitive API, and offers suggestions for relevant medical articles. Explore the future of dermatological diagnostics and treatment right here!
 
  ## Build Status
  [![Netlify Status](https://api.netlify.com/api/v1/badges/a1f776b3-3424-4a08-9f85-b212b66cfbe8/deploy-status)](https://app.netlify.com/sites/derma-scan/deploys)
