@@ -12,7 +12,11 @@
       <li>Leveraging Harvard's Ham10000 dataset and the robust MobileNet V2 model, this system boasts an impressive accuracy rate of 89%. But that's not all – we've integrated "Derma" a dermatology chatbot powered by GPT-3.5 Turbo, to provide insightful information and guidance.</li>
       <li>Moreover, our app also connects you with the nearest doctors through an intuitive API, and offers suggestions for relevant medical articles. Explore the future of dermatological diagnostics and treatment right here!</li>
     </ul>
-  
+
+
+> [!IMPORTANT]
+> These results are for informational purposes only; consult a healthcare professional for accurate medical advice.
+
  ## Build Status
  [![Netlify Status](https://api.netlify.com/api/v1/badges/a1f776b3-3424-4a08-9f85-b212b66cfbe8/deploy-status)](https://app.netlify.com/sites/derma-scan/deploys)
 
@@ -73,8 +77,6 @@
 </td>
 </table>
 
-> [!WARNING]
-> Critical content demanding immediate user attention due to potential risks.
 
  ## Current Contributors 🔻
 <div align="center">
