@@ -1,0 +1,7 @@
+tensorflow>=2.0.0
+opencv-python>=4.0.0
+scikit-learn>=0.22.0
+Keras>=2.0.0
+pandas>=0.24.0
+numpy>=1.17.0
+matplotlib>=3.0.0
