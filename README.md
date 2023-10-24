@@ -73,6 +73,9 @@
 </td>
 </table>
 
+[!IMPORTANT]
+rucial information necessary for users to succeed.
+
  ## Current Contributors 🔻
 <div align="center">
   <a href="https://github.com/ADITYAVOFFICIAL/Skin-Disease-Classifier/graphs/contributors">
