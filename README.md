@@ -73,8 +73,8 @@
 </td>
 </table>
 
-[!IMPORTANT]
-rucial information necessary for users to succeed.
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
 
  ## Current Contributors 🔻
 <div align="center">
