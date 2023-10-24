@@ -48,8 +48,8 @@ Welcome to DermaScan
 <a href = "https://www.linkedin.com/in/aditya-verma-real/">
 <img src = "https://img.icons8.com/color/48/linkedin.png" width="36" height="36"/>
 </a>
-<a href = "[https://www.linkedin.com/in/aditya-verma-real/](https://medium.com/@adityaver)">
-<img src = "https://img.icons8.com/sf-black-filled/64/medium-logo.png" width="36" height="36"/>
+<a href = "https://medium.com/@adityaver">
+<img src = "https://img.icons8.com/stickers/100/medium-logo.png" width="36" height="36"/>
 </a>
 </p>
 </td>
