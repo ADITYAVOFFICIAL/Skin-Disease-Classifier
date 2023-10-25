@@ -88,11 +88,14 @@
 
 <p>Running website on Local Host</p>
 
+```
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
+```
+
  </div>
 
  ## Current Contributors 🔻
