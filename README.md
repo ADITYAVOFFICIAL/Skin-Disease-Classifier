@@ -43,7 +43,7 @@
   
 <div><h2><strong>Developers of this repository 🔻</strong></h2></div>
 
-<table align="center">
+<table align="center" style="border-radius:20px;">
 <tr align="center">
 <td>
 
