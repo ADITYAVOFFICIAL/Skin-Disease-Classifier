@@ -90,11 +90,9 @@
 
 ```mermaid
 flowchart LR
-
-A[Clone Repo] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
+A(Round)
+A[Clone Repo] -->|Open Folder| B(Round)
+B[Open index.html] --> C
 ```
 
 
