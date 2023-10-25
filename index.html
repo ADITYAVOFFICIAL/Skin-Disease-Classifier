@@ -161,6 +161,7 @@
                     <img id="selected-image" class="adjust-image" src="./images/nope.png" alt="Image for analysis" style="border-radius: 17px; max-width: 65%;">
                 </div>                
                 <div id="btnn" class="w3-center" style="padding-top: 10px;">
+                    <input type="file" name="image" id="image" accept=".jpg, .png" style="display: none;">
                     <button class="btn btn-primary has-icon" onclick="setTimeout(simulateClick.bind(null, 'image-selector'), 200)" style="margin-bottom: 12px;">
                         <i class='fas fa-camera w3-padding-right' style='font-size:15px'></i>
                         <b>Upload Image</b>
@@ -193,10 +194,9 @@
                         <li data-target="#imageSlider" data-slide-to="1"></li>
                         <li data-target="#imageSlider" data-slide-to="2"></li>
                         <li data-target="#imageSlider" data-slide-to="3"></li>
-                        <li data-target="#imageSlider" data-slide-to="4"></li>
                         <!-- Add more li elements for additional slides -->
                     </ol>
-                    <div class="carousel-inner text-center img-fluid shadow" style="border-radius: 20px;"> <!-- Added text-center for center alignment -->
+                    <div class="carousel-inner text-center img-fluid shadow" style="border-radius: 15px;"> <!-- Added text-center for center alignment -->
                         <div class="carousel-item active">
                             <img src="./images/slide1.png" alt="Image 1" style="max-width: 100%; max-height: 100vh;">
                         </div>                        
@@ -267,12 +267,12 @@
                     <div class="tab-pane fade show active" id="management-tab" role="tabpanel" aria-labelledby="pill-management-tab">
                         <div class="row align-items-center">
                             <div class="col-lg-8 anim-to-top">
-                                <img class="img-fluid rounded-lg shadow" src="images/how-it-works-1.jpg" alt="">
+                                <img class="img-fluid rounded-lg shadow" src="images/work1.png" alt="">
                             </div>
                             <div class="col-lg-4 mt-4 mt-lg-0 anim-to-bottom">
                                 <h2 class="section-title">Image <strong>Input</strong></h2>
-                                <p class="mb-30">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet</p>
-                                <a href="how-it-works.html" class="btn btn-primary has-icon">View More
+                                <p class="mb-30">A high-resolution image capturing the entirety of the affected skin region is uploaded and then transmitted to the backend for further processing.</p>
+                                <a href="#" class="btn btn-primary has-icon">View More
                                     <span class="icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z" fill="currentColor"></path></svg></span>
                                 </a>
                             </div>
@@ -281,12 +281,12 @@
                     <div class="tab-pane fade" id="chat-tab" role="tabpanel" aria-labelledby="pill-chat-tab">
                         <div class="row align-items-center">
                             <div class="col-lg-8 anim-to-top">
-                                <img class="img-fluid rounded-lg shadow" src="images/03_1.png" alt="">
+                                <img class="img-fluid rounded-lg shadow" src="images/work2.png" alt="">
                             </div>
                             <div class="col-lg-4 mt-4 mt-lg-0 anim-to-bottom">
-                                <h2 class="section-title">Built In <strong>Chat</strong></h2>
-                                <p class="mb-30">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet</p>
-                                <a href="how-it-works.html" class="btn btn-primary has-icon">View More
+                                <h2 class="section-title">Image <strong>Processing</strong></h2>
+                                <p class="mb-30">The image is subsequently processed to ensure compatibility with the MobileNet V2 model.</p>
+                                <a href="#" class="btn btn-primary has-icon">View More
                                     <span class="icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z" fill="currentColor"></path></svg></span>
                                 </a>
                             </div>
@@ -295,12 +295,12 @@
                     <div class="tab-pane fade" id="analytics-tab" role="tabpanel" aria-labelledby="pill-analytics-tab">
                         <div class="row align-items-center">
                             <div class="col-lg-8 anim-to-top">
-                                <img class="img-fluid rounded-lg shadow" src="images/04_1.png" alt="">
+                                <img class="img-fluid rounded-lg shadow" src="images/work3.png" alt="">
                             </div>
                             <div class="col-lg-4 mt-4 mt-lg-0 anim-to-bottom">
-                                <h2 class="section-title">Project <strong>Analytics</strong></h2>
-                                <p class="mb-30">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet</p>
-                                <a href="how-it-works.html" class="btn btn-primary has-icon">View More
+                                <h2 class="section-title">Image <strong>Classification</strong></h2>
+                                <p class="mb-30">Then the image is fed into the model, which then predicts top three most likely skin conditions from a list that includes actinic keratosis (AK), basal cell carcinoma (BCC), benign keratosis (BK), dermatofibroma (DF), melanocytic nevi (NV), melanoma (MEL), and vascular skin lesions (VASC).</p>
+                                <a href="#" class="btn btn-primary has-icon">View More
                                     <span class="icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z" fill="currentColor"></path></svg></span>
                                 </a>
                             </div>
@@ -309,12 +309,12 @@
                     <div class="tab-pane fade" id="collaboration-tab" role="tabpanel" aria-labelledby="pill-collaboration-tab">
                         <div class="row align-items-center">
                             <div class="col-lg-8 anim-to-top">
-                                <img class="img-fluid rounded-lg shadow" src="images/how-it-works-1.jpg" alt="">
+                                <img class="img-fluid rounded-lg shadow" src="images/work4.png" alt="">
                             </div>
                             <div class="col-lg-4 mt-4 mt-lg-0 anim-to-bottom">
-                                <h2 class="section-title">Task <strong>Collaboration</strong></h2>
-                                <p class="mb-30">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet</p>
-                                <a href="how-it-works.html" class="btn btn-primary has-icon">View More
+                                <h2 class="section-title">Results <strong>Display</strong></h2>
+                                <p class="mb-30">After the MobileNet V2 model generates predictions, they are transmitted from the backend and presented to the end user on the frontend.</p>
+                                <a href="#" class="btn btn-primary has-icon">View More
                                     <span class="icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z" fill="currentColor"></path></svg></span>
                                 </a>
                             </div>
@@ -442,6 +442,31 @@
                         <li>
                             <span><svg width="16" height="11" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.125L6.91892 11L16 2" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
                             SRM INSTITUTE OF SCIENCE AND TECHNOLOGY, KATTANKULATHUR
+                        </li>
+                    </ul>
+                </div>
+                <div class="shadow p-30" style="border-radius: 15px;">
+                    <h3 class="font-weight-600">
+                        <i class="ti-info-alt text-primary mr-2"></i>
+                        With DermaScan
+                    </h3>
+
+                    <ul class="list-unstyled check-list-primary mt-30">
+                        <li class="mb-20">
+                            <span><svg width="16" height="11" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.125L6.91892 11L16 2" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+                            Predict skin condition
+                        </li>
+                        <li class="mb-20">
+                            <span><svg width="16" height="11" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.125L6.91892 11L16 2" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+                            Talk to dermatological assistant
+                        </li>
+                        <li class="mb-20">
+                            <span><svg width="16" height="11" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.125L6.91892 11L16 2" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+                            Find nearest dermatologist
+                        </li>
+                        <li>
+                            <span><svg width="16" height="11" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.125L6.91892 11L16 2" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+                            Relevant medical articles
                         </li>
                     </ul>
                 </div>
