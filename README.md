@@ -80,6 +80,7 @@
 
  ## Installation
  <div>
+ <p>Before running the Jupyter Notebook for the model, make sure to install the dependencies listed in the 'requirements.txt' file.</p>
    
    ```
    pip install -r requirements.txt
