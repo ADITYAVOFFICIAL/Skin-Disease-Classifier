@@ -5,7 +5,8 @@
 ![Issues](https://img.shields.io/github/issues/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)
 ![PR](https://img.shields.io/github/issues-pr/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
-    <a href='https://github.com/MShawon/github-clone-count-badge'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/MShawon/cf89f3274d06170b8a4973039aa6220a/raw/clone.json&logo=github'></a>
+    <a href='https://github.com/ADITYAVOFFICIAL/Skin-Disease-Classifier'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/MADITYAVOFFICIAL/Skin-Disease-Classifier/raw/clone.json&logo=github'></a>
+
 
 [![HitCount](https://hits.dwyl.com/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)](https://hits.dwyl.com/ADITYAVOFFICIAL/Skin-Disease-Classifier)
   <p>
