@@ -78,6 +78,10 @@
 </td>
 </table>
 
+ ## Installation
+ <div align="center">
+   'pip install -r requirements.txt'
+ </div>
 
  ## Current Contributors 🔻
 <div align="center">
