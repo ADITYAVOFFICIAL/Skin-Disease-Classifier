@@ -85,6 +85,14 @@
    ```
    pip install -r requirements.txt
    ```
+
+<p>Running website on Local Host</p>
+
+```mermaid
+graph TD;
+    Clone Repo-->Open Folder;
+    Run index.html-->You're in;
+```
  </div>
 
  ## Current Contributors 🔻
