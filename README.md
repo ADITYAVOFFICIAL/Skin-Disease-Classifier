@@ -80,9 +80,9 @@
 
  ## Installation
  <div>
-   '''python
+   ```
    pip install -r requirements.txt
-   '''
+   ```
  </div>
 
  ## Current Contributors 🔻
