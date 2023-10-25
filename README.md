@@ -88,11 +88,11 @@
 
 <p>Running website on Local Host</p>
 
-```mermaid
 graph TD;
-    Clone Repo-->Open Folder;
-    Run index.html-->You're in;
-```
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
  </div>
 
  ## Current Contributors 🔻
