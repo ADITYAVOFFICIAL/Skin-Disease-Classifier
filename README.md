@@ -6,9 +6,6 @@
 ![PR](https://img.shields.io/github/issues-pr/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 ![Views](https://views.whatilearened.today/views/github/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)
-
-
-[![HitCount](https://hits.dwyl.com/ADITYAVOFFICIAL/Skin-Disease-Classifier.svg)](https://hits.dwyl.com/ADITYAVOFFICIAL/Skin-Disease-Classifier)
   <p>
     <ul>
       <li>Welcome to the DermaScan web app GitHub repository, your gateway to a cutting-edge skin lesion and disease classifier.</li>
