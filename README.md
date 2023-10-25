@@ -79,8 +79,10 @@
 </table>
 
  ## Installation
- <div align="center">
-   'pip install -r requirements.txt'
+ <div>
+   '''python
+   pip install -r requirements.txt
+   '''
  </div>
 
  ## Current Contributors 🔻
