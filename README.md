@@ -25,7 +25,10 @@
 
 ![Web_app](images/pre.png)<br/><br/><br/>
 ![Web_app](images/pre2.png)<br/><br/><br/>
-![Web_app](images/pre3.png)<br/><br/><br/>
+<div style="text-align:center;">
+  <img src="images/pre3.png" width="200" alt="Web_app">
+</div>
+
 ![Web_app](images/pre4.png)<br/>
 
  ## Current Tech Stack 🔻
