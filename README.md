@@ -23,8 +23,8 @@
 
  ## Preview
 
-![Web_app](images/pre.png)<br/><br/><br/>
-![Web_app](images/pre2.png)<br/><br/><br/>
+![Web_app](images/pre.png)<br/>
+![Web_app](images/pre2.png)<br/>
 
 <p align="center">
   <img src="images/pre3.png" width="200" alt="Web_app">
