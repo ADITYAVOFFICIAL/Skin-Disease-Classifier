@@ -74,19 +74,6 @@
 </p>
 </td>
 
-<td>
-𝗦𝗮𝗵𝗶𝗹 𝗔𝗱𝗵𝗶𝗸𝗮𝗿𝗶
-
-<p align="center">
-<img src = "https://avatars.githubusercontent.com/u/116698850?v=4"  height="120" alt="Aryan Raj">
-</p>
-<p align="center">
-<a href = "https://github.com/Sahilopl"><img src = "https://img.icons8.com/3d-fluency/94/github.png" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/sahil-adhikari-57b445250/">
-<img src = "https://img.icons8.com/color/48/linkedin.png" width="36" height="36"/>
-</a>
-</p>
-</td>
 </table>
 
  ## Installation
